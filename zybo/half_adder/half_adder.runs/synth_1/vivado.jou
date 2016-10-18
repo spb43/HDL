@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Oct 12 18:05:16 2016
+# Process ID: 5388
+# Current directory: D:/code_test/HDL/vivado/half_adder/half_adder.runs/synth_1
+# Command line: vivado.exe -log h_adder.vds -mode batch -messageDb vivado.pb -notrace -source h_adder.tcl
+# Log file: D:/code_test/HDL/vivado/half_adder/half_adder.runs/synth_1/h_adder.vds
+# Journal file: D:/code_test/HDL/vivado/half_adder/half_adder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source h_adder.tcl -notrace
