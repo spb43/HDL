@@ -1,0 +1,85 @@
+|j_cnt
+LEDR[0] <= jon_cnt:inst.q[0]
+LEDR[1] <= jon_cnt:inst.q[1]
+LEDR[2] <= jon_cnt:inst.q[2]
+LEDR[3] <= jon_cnt:inst.q[3]
+LEDR[4] <= jon_cnt:inst.q[4]
+LEDR[5] <= jon_cnt:inst.q[5]
+LEDR[6] <= jon_cnt:inst.q[6]
+LEDR[7] <= jon_cnt:inst.q[7]
+LEDR[8] <= jon_cnt:inst.q[8]
+LEDR[9] <= jon_cnt:inst.q[9]
+CLOCK_50 => clk_1Hz:inst6.clk_50
+SW[0] => jon_cnt:inst.rst
+
+
+|j_cnt|jon_cnt:inst
+clk => s_count[0].CLK
+clk => s_count[1].CLK
+clk => s_count[2].CLK
+clk => s_count[3].CLK
+clk => s_count[4].CLK
+clk => s_count[5].CLK
+clk => s_count[6].CLK
+clk => s_count[7].CLK
+clk => s_count[8].CLK
+clk => s_count[9].CLK
+rst => s_count[0].ACLR
+rst => s_count[1].ACLR
+rst => s_count[2].ACLR
+rst => s_count[3].ACLR
+rst => s_count[4].ACLR
+rst => s_count[5].ACLR
+rst => s_count[6].ACLR
+rst => s_count[7].ACLR
+rst => s_count[8].ACLR
+rst => s_count[9].ACLR
+q[0] <= s_count[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= s_count[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= s_count[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= s_count[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= s_count[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= s_count[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= s_count[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= s_count[7].DB_MAX_OUTPUT_PORT_TYPE
+q[8] <= s_count[8].DB_MAX_OUTPUT_PORT_TYPE
+q[9] <= s_count[9].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|j_cnt|clk_1Hz:inst6
+clk_50 => clk.CLK
+clk_50 => count[0].CLK
+clk_50 => count[1].CLK
+clk_50 => count[2].CLK
+clk_50 => count[3].CLK
+clk_50 => count[4].CLK
+clk_50 => count[5].CLK
+clk_50 => count[6].CLK
+clk_50 => count[7].CLK
+clk_50 => count[8].CLK
+clk_50 => count[9].CLK
+clk_50 => count[10].CLK
+clk_50 => count[11].CLK
+clk_50 => count[12].CLK
+clk_50 => count[13].CLK
+clk_50 => count[14].CLK
+clk_50 => count[15].CLK
+clk_50 => count[16].CLK
+clk_50 => count[17].CLK
+clk_50 => count[18].CLK
+clk_50 => count[19].CLK
+clk_50 => count[20].CLK
+clk_50 => count[21].CLK
+clk_50 => count[22].CLK
+clk_50 => count[23].CLK
+clk_50 => count[24].CLK
+clk_50 => count[25].CLK
+clk_50 => count[26].CLK
+clk_50 => count[27].CLK
+clk_50 => count[28].CLK
+clk_50 => count[29].CLK
+clk_50 => count[30].CLK
+clk_50 => count[31].CLK
+clk_1Hz <= clk.DB_MAX_OUTPUT_PORT_TYPE
+
+
