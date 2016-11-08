@@ -1,0 +1,1 @@
+This is VGA 1240x1024 project implemented on DE1-SoC board.
