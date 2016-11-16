@@ -1,0 +1,47 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ctrl_mod is
+port(iclk		:in std_logic;
+		irst	:in std_logic;
+		iEN	:in std_logic;
+			odata	:out std_logic_vector(3 downto 0)
+		);
+end entity ctrl_mod;
+
+architecture behav of cntrl_mod is
+
+begin
+
+state_ctrl_process: process(iclk,irst)
+
+type state_type is (Idle, st_1, st_2, st_3, st_4);
+signal state   	:state_type;
+
+begin
+	if(irst = '1') then
+		state <= Idle;
+	elsif(rising_edge(clk)) then
+		
+	end if;
+	
+	
+out_process:process(state)
+begin
+	case(state) is
+		when Idle => 
+			odata <= "ZZZZ";
+		when st_1 =>
+			odata <= "1010";
+		when st_2 =>
+			odata <= "0110";
+		when st_3 =>
+			odata <= "0101";
+		when st_4 =>
+			odata <= "1001";
+	end case;
+end process state_process;
+			
+
+
+end architecture behav;

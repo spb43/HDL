@@ -1,0 +1,18 @@
+# system info alt_clk_div on 2016.11.16.13:45:17
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1479296716
+#
+#
+# Files generated for alt_clk_div on 2016.11.16.13:45:17
+files:
+filepath,kind,attributes,module,is_top
+simulation/alt_clk_div.vhd,VHDL,,alt_clk_div,true
+simulation/submodules/alt_clk_div_altclkctrl_0.vhd,VHDL,,alt_clk_div_altclkctrl_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+alt_clk_div.altclkctrl_0,alt_clk_div_altclkctrl_0

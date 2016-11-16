@@ -1,0 +1,8 @@
+
+State Machine - |stepper|ctrl_mod:ctrl_cmp|state
+Name state.st_4 state.st_3 state.st_2 state.st_1 state.Idle 
+state.Idle 0 0 0 0 0 
+state.st_1 0 0 0 1 1 
+state.st_2 0 0 1 0 1 
+state.st_3 0 1 0 0 1 
+state.st_4 1 0 0 0 1 
